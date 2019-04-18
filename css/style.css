@@ -71,13 +71,16 @@ ul{
   -webkit-background-attachment:fixed;
   background-size:cover;
   -webkit-background-size:cover;
+  -moz-background-size:cover;
   background-position: bottom;
   -webkit-background-position:bottom;
+  -moz-background-position:bottom;
   position: relative;
   background-repeat:no-repeat;
   width:100%;
   height:100vh;
 }
+
 
 .block{
   margin:0 auto;
