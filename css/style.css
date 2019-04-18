@@ -67,8 +67,6 @@ ul{
   padding:0px;
   background-color: #d3d3d3;
   background-image: url("../images/header.jpg");
-  background-attachment:fixed;
-  -webkit-background-attachment:fixed;
   background-size:cover;
   -webkit-background-size:cover;
   -moz-background-size:cover;
@@ -601,6 +599,13 @@ h1{
 
 
 @media screen and (min-width:700px){
+
+  .header{
+    background-attachment:fixed;
+    -webkit-background-attachment:fixed;
+    -moz-background-attachment:fixed;
+    -o-background-attachment:fixed;
+  }
 
   li{
     display:inline-block;
