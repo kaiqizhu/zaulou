@@ -164,18 +164,18 @@ h2 {
         right: -2px;
         width: 1px;
         height: 90%;
-        border-right: 2px solid #FFF;
+        border-right: 2px solid #707070;
         animation: blink .5s infinite ease;
       }
 
-@keyframes blink{
+/* @keyframes blink{
         0% {
           opacity: 0;
         }
         100% {
           opacity: 1%;
         }
-      }
+      } */
 
 /* home page item */
 #main{
