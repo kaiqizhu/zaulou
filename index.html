@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>The Road Trips</title>
+
+  </head>
+
+
+
+  <body>
+
+    <header>
+
+      <div class="header">
+      <!-- this is top navigation -->
+        <div class="block sticky_navbar">
+          <div class="title_home">
+            <a href = "index.html"> ZAULOU </a>
+          </div>
+          <nav class="topnavbar" id = "myTopnav">
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a> -->
+            <button type = "button" class="icon" onclick="myFunction()">
+              <span class = "bar bar1"></span>
+              <span class = "bar bar2"></span>
+              <span class = "bar bar3"></span>
+
+            </button>
+
+          <ul class = "nav_list">
+
+            <li class = "nav_item">
+              <a href = "photo_gallery.html">GALLERY</a>
+            </li>
+
+            <li class = "nav_item">
+              <a href = "contact.html">CONTACT</a>
+            </li>
+
+          </ul>
+        </nav>
+        </div>
+        <!-- this is end of top navigation -->
+      </div>
+
+
+
+    </header>
+
+
+
+
+<!-- this is main part -->
+<main>
+    <div class="hero-tagline fade">
+      <!-- <h2>Going on road trip is a way for me to observe the world through meeting lovely strangers, touching warm bricks, and eating delicious food.</h2> -->
+      <h2>Going on road trip is a way for me to observe the world through</h2>
+      <div id = "typing" class = "typing"></div>
+    </div>
+
+    <div id="main">
+      <ul class="content-grid">
+
+        <!-- 1st -->
+        <li class="content-item-landscape">
+          <a href="key_west.html">
+            <img src="images/keywest_fp.jpg" alt="Key West"/>
+
+          </a>
+          <div class="item-info">
+            <h3>2017.12 | U.S.</h3>
+            <h4>Key West</h4>
+          </div>
+
+        </li>
+
+        <!-- 2nd -->
+        <li class="content-item-portrait">
+          <a href="saint_augustine.html">
+            <img src="images/staugustine_fp.jpg" alt="St.Augustine"/>
+
+          </a>
+          <div class="item-info">
+            <h3>2017.12 | U.S.</h3>
+            <h4>St.Augustine</h4>
+          </div>
+        </li>
+
+        <!-- 3rd -->
+        <li class="content-item-portrait">
+          <a href="mexico_city.html">
+            <img src="images/mexico_fp.jpg" alt="Mexico City"/>
+
+          </a>
+          <div class="item-info">
+            <h3>2016.12 | MEXICO</h3>
+            <h4>Mexico City</h4>
+          </div>
+
+      </li>
+
+      <!-- 4th -->
+      <li class="content-item-landscape">
+        <a href="guanajuato.html">
+          <img src="images/guanajuato_fp.jpg" alt="Guanajuato"/>
+
+        </a>
+        <div class="item-info">
+          <h3>2016.12 | MEXICO</h3>
+          <h4>Guanajuato</h4>
+        </div>
+
+      </li>
+
+      <!-- 5th -->
+      <li class="content-item-landscape">
+        <a href="cinqueterre.html">
+          <img src="images/cinqueterre_fp.jpg" alt="Cinque Terre"/>
+
+        </a>
+        <div class="item-info">
+          <h3>2017.07 | ITALY</h3>
+          <h4>Cinque Terre</h4>
+        </div>
+
+      </li>
+
+      <!-- 6th -->
+      <li class="content-item-landscape">
+        <a href="jungfrau.html">
+          <img src="images/jungfrau_fp.jpg" alt="Jungfraujoch"/>
+
+        </a>
+        <div class="item-info">
+          <h3>2017.07 | SWITZERLAND</h3>
+          <h4>Jungfraujoch</h4>
+        </div>
+
+      </li>
+
+      <!-- 7th -->
+      <li class="content-item-portrait">
+        <a href="paris.html">
+          <img src="images/paris_fp.jpg" alt="Paris"/>
+
+        </a>
+        <div class="item-info">
+          <h3>2017.06 | FRANCE</h3>
+          <h4>Paris</h4>
+        </div>
+
+      </li>
+
+
+
+      <!-- 8th -->
+      <li class="content-item-portrait">
+        <a href="monaco.html">
+          <img src="images/monaco_fp.jpg" alt="Monaco"/>
+
+        </a>
+        <div class="item-info">
+          <h3>2017.06 | MONACO</h3>
+          <h4>Monaco</h4>
+        </div>
+
+      </li>
+
+    </ul>
+    </div>
+  </main>
+
+  <footer>
+        <h5>ZAULOU is a personal travel website of Kay and Chengyang. <br>
+            ZAULOU means escape in Cantonese, <br>
+            it also describes our attitude toward travel.<br>
+            with a car, a camp, a dog, and a credit card,<br>
+            we wish we can escape from busy school work,<br>
+            we are not rushing through our journey,<br>
+            stop and go only base on our own tempo. </h5>
+        <h6>&copy; Copyright ZAULOU</h6>
+    </footer>
+
+    <!-- javascript -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnavbar") {
+          x.className += " responsive";
+        }
+        else {
+          x.className = "topnavbar";
+        }
+      }
+</script>
+
+<script>
+$(window).scroll(function(){
+  $(".fade").css("opacity", 1 - $(window).scrollTop() / ($(window).height()+600));
+  });
+
+</script>
+
+<script>
+    $(document).ready(function() {
+    // Transition effect for navbar
+    $(window).scroll(function() {
+      // checks if window is scrolled more than 500px, adds/removes solid class
+      if($(this).scrollTop() > $(window).height()) {
+          $('.sticky_navbar').addClass('scroll');
+      } else {
+          $('.sticky_navbar').removeClass('scroll');
+      }
+    });
+});
+</script>
+
+<script>
+
+var typeString = ['Meeting Lovely Strangers.', 'Touching Warm Bricks.', 'Eating Delicious Food.'];
+    var  i = 0;
+    var count = 0
+    var selectedText = '';
+    var text = '';
+    (function type() {
+      if (count == typeString.length) {
+        count = 0;
+      }
+      selectedText = typeString[count];
+      text = selectedText.slice(0, ++i);
+      document.getElementById('typing').innerHTML = text;
+      if (text.length === selectedText.length) {
+        count++;
+        i = 0;
+      }
+      setTimeout(type, 150);
+    }());
+
+    function sleep(milliseconds) {
+      var start = new Date().getTime();
+      for (var i = 0; i < 1e7; i++) {
+        if ((new Date().getTime() - start) > milliseconds){
+          break;
+        }
+      }
+    }
+
+</script>
+
+
+
+</body>
+
+
+
+</html>

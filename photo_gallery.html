@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Photo Gallery</title>
+  </head>
+
+
+  <body>
+
+    <header class = "fixed_navbar">
+
+
+      <!-- this is top navigation -->
+        <div class="block">
+          <div class="title_home">
+            <a href = "index.html"> ZAULOU </a>
+          </div>
+          <nav class="topnavbar" id = "myTopnav">
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a> -->
+            <button type = "button" class="icon" onclick="myFunction()">
+              <span class = "bar bar1"></span>
+              <span class = "bar bar2"></span>
+              <span class = "bar bar3"></span>
+
+            </button>
+
+          <ul class = "nav_list">
+
+            <li class = "nav_item">
+              <a href = "photo_gallery.html" class="current">GALLERY</a>
+            </li>
+
+            <li class = "nav_item">
+              <a href = "contact.html">CONTACT</a>
+            </li>
+
+          </ul>
+        </nav>
+        </div>
+        <!-- this is end of top navigation -->
+
+
+
+
+    </header>
+
+
+
+
+<main>
+  <div class="hero-tagline fade">
+  <h2>Using my phone to capture memoriable moment is an important part of our road trips. Through photography, I've learn to appreciate every moment during our trip. It is a memory medium that I link my feeling to.</h2>
+</div>
+
+  <div class="row gallery">
+    <div class="column">
+      <img src="images/up_1.jpg" alt="Upper Peninsula of Michigan"/>
+      <img src="images/up_2.jpg" alt="Upper Peninsula of Michigan"/>
+      <img src="images/up_3.jpg" alt="Upper Peninsula of Michigan"/>
+      <img src="images/up_4.jpg" alt="Upper Peninsula of Michigan"/>
+      <img src="images/up_5.jpg" alt="Upper Peninsula of Michigan"/>
+      <img src="images/up_6.jpg" alt="Upper Peninsula of Michigan"/>
+      <img src="images/cinqueterre_1.jpg" alt="Cinque Terre"/>
+      <img src="images/jungfrau_1.jpg" alt="Jungfrau"/>
+      <img src="images/jungfrau_2.jpg" alt="Jungfrau"/>
+
+    </div>
+
+    <div class="column">
+      <img src="images/nashville_2.jpg" alt="Mammoth Cave National Park"/>
+      <img src="images/nashville_3.jpg" alt="Union Station Nashville"/>
+      <img src="images/nashville_4.jpg" alt="Boardway Nashville"/>
+      <img src="images/nashville_1.jpg" alt="Mammoth Cave National Park"/>
+      <img src="images/keywest_1.jpg" alt="Upper Peninsula of Michigan"/>
+      <img src="images/keywest_2.jpg" alt="Upper Peninsula of Michigan"/>
+      <img src="images/keywest_3.jpg" alt="Upper Peninsula of Michigan"/>
+      <img src="images/toronto_3.jpg" alt="Aquarium"/>
+      <img src="images/toronto_4.jpg" alt="view from CN Tower"/>
+
+
+    </div>
+
+    <div class="column">
+      <img src="images/mexico_1.jpg" alt="Chapultepec Castle"/>
+      <img src="images/mexico_4.jpg" alt="Soumaya Museum Mexico"/>
+      <img src="images/mexico_5.jpg" alt="Vasconcelos Livrary Mexicoo"/>
+      <img src="images/mexico_6.jpg" alt="Guanajuato University"/>
+      <img src="images/mexico_2.jpg" alt="Museo del Objeto del Objeto"/>
+      <img src="images/mexico_3.jpg" alt=" Museo del Objeto del Objeto"/>
+      <img src="images/montreal_1.jpg" alt="Guanajuato Mexico"/>
+      <img src="images/toronto_2.jpg" alt="CN Tower"/>
+
+    </div>
+
+    <div class="column">
+      <img src="images/mexico_7.jpg" alt="Chapultepec Castle"/>
+      <img src="images/mexico_8.jpg" alt="Guanajuato"/>
+      <img src="images/nashville_5.jpg" alt="Broadway"/>
+      <img src="images/nashville_6.jpg" alt="Broadway"/>
+      <img src="images/nashville_7.jpg" alt="Old Train Station"/>
+      <img src="images/monaco_1.jpg" alt="Monaco Port"/>
+      <img src="images/prague_1.jpg" alt="Prague Plaza"/>
+      <img src="images/toronto_1.jpg" alt="Niagara Fall"/>
+      <img src="images/up_7.jpg" alt="Upper Peninsula of Michigan"/>
+      <img src="images/up_8.jpg" alt="Upper Peninsula of Michigan"/>
+
+    </div>
+
+    </div>
+</main>
+
+<footer>
+      <h5>ZAULOU is a personal travel website of Kay and Chengyang. <br>
+          ZAULOU means escape in Cantonese, it also describes our attitude toward travel.<br>
+          with a car, a camp, a dog, and a credit card,<br>
+          we wish we can escape from busy school work,<br>
+          we are not rushing through our journey,<br>
+          stop and go only base on our own tempo. </h5>
+      <h6>&copy; Copyright ZAULOU</h6>
+  </footer>
+
+  <!-- javascript -->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnavbar") {
+        x.className += " responsive";
+      }
+      else {
+        x.className = "topnavbar";
+      }
+    }
+</script>
+
+<script>
+$(window).scroll(function(){
+  $(".fade").css("opacity", 1 - $(window).scrollTop() / 250);
+  });
+
+</script>
+
+<script>
+    $(document).ready(function() {
+    // Transition effect for navbar
+    $(window).scroll(function() {
+      // checks if window is scrolled more than 500px, adds/removes solid class
+      if($(this).scrollTop() > 300) {
+          $('.fixed_navbar').addClass('scroll');
+      } else {
+          $('.fixed_navbar').removeClass('scroll');
+      }
+    });
+});
+</script>
+
+  </body>
+
+
+
+</html>

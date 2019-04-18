@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>The Road Trips</title>
+
+  </head>
+
+  <body>
+
+    <header class = "fixed_navbar">
+
+
+      <!-- this is top navigation -->
+        <div class="block">
+          <div class="title_home">
+            <a href = "index.html"> ZAULOU </a>
+          </div>
+          <nav class="topnavbar" id = "myTopnav">
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a> -->
+            <button type = "button" class="icon" onclick="myFunction()">
+              <span class = "bar bar1"></span>
+              <span class = "bar bar2"></span>
+              <span class = "bar bar3"></span>
+
+            </button>
+
+          <ul class = "nav_list">
+
+            <li class = "nav_item">
+              <a href = "photo_gallery.html">GALLERY</a>
+            </li>
+
+            <li class = "nav_item">
+              <a href = "contact.html">CONTACT</a>
+            </li>
+
+          </ul>
+        </nav>
+        </div>
+        <!-- this is end of top navigation -->
+
+
+
+
+    </header>
+
+    <main>
+      <div class = "title_head fade">
+
+          <div class = "main_title">
+            <h1>Mexico City</h1>
+          </div>
+
+          <div class = "sub_title">
+
+            <h2>The past and future of Tenochtitlan </h2>
+          </div>
+
+          <div class = "separate_line">
+            <span class = "bar4"></span>
+
+          </div>
+
+          <div class = "tiny_title">
+
+            <h3>2016.12 | MEXICO</h3>
+          </div>
+
+
+      </div>
+
+      <div class = "main_content">
+
+        <div class = "heroimg">
+          <img src="images/mexicocity_5.jpg" alt="Mexico City">
+
+      </div>
+
+
+
+        <div class="article_content">
+          <div class="writing_content">
+            <p>Walking around Mexico City felt wired, I felt like walking in a modern city for a second, and I felt like walking on the
+            land of Tenochtitlan the next moment. But following a local food tour, tasted some delicious tacos and drank some rich beer
+            made me forgot all about that. </p>
+          </div>
+
+          <ul class = "content-grid">
+
+            <li class = "content-item-landscape">
+              <img src="images/mexicocity_8.jpg" alt="Mexico City"/>
+
+            </li>
+
+            <li class = "content-item-portrait">
+              <img src="images/mexicocity_7.jpg" alt="Mexico City"/>
+
+            </li>
+
+            <li class = "content-item-portrait">
+              <img src="images/mexicocity_3.jpg" alt="Mexico City"/>
+
+            </li>
+
+            <li class = "content-item-landscape">
+              <img src="images/mexicocity_6.jpg" alt="Mexico City"/>
+
+            </li>
+
+            <li class = "content-item-portrait">
+              <img src="images/mexicocity_2.jpg" alt="Mexico City"/>
+
+            </li>
+
+            <li class = "content-item-portrait">
+              <img src="images/mexicocity_1.jpg" alt="Mexico City"/>
+
+            </li>
+
+
+
+          </ul>
+
+
+        </div>
+
+        <div class="prev_next_section">
+          <div class="inner">
+            <div class="half_prev">
+              <h3>PREV</h3>
+              <h4>St. Augustine</h4>
+              <a href = "saint_augustine.html">
+              <img src="images/staugustine_1.jpg" alt="St. Augustine"/>
+
+            </a>
+            </div>
+
+            <div class="half_next">
+
+                <h3>NEXT</h3>
+                <h4>Guanajuato</h4>
+                <a href = "guanajuato.html">
+                <img src="images/guanajuato_7.jpg" alt="Guanajuato"/>
+
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+
+    </main>
+
+    <footer>
+          <h5>ZAULOU is a personal travel website of Kay and Chengyang. <br>
+              ZAULOU means escape in Cantonese, <br>
+              it also describes our attitude toward travel.<br>
+              with a car, a camp, a dog, and a credit card,<br>
+              we wish we can escape from busy school work,<br>
+              we are not rushing through our journey,<br>
+              stop and go only base on our own tempo. </h5>
+          <h6>&copy; Copyright ZAULOU</h6>
+      </footer>
+
+      <!-- javascript -->
+      <script>
+
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnavbar") {
+            x.className += " responsive";
+          }
+          else {
+            x.className = "topnavbar";
+          }
+        }
+      </script>
+
+
+      <script>
+      $(window).scroll(function(){
+        $(".fade").css("opacity", 1 - $(window).scrollTop() / 250);
+        });
+
+      </script>
+
+      <script>
+          $(document).ready(function() {
+          // Transition effect for navbar
+          $(window).scroll(function() {
+            // checks if window is scrolled more than 500px, adds/removes solid class
+            if($(this).scrollTop() > 300) {
+                $('.fixed_navbar').addClass('scroll');
+            } else {
+                $('.fixed_navbar').removeClass('scroll');
+            }
+          });
+    });
+      </script>
+
+
+  </body>
