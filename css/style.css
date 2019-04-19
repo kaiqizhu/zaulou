@@ -360,11 +360,21 @@ h6 {
   padding:20px 0;
 }
 
+.main_title h2{
+  font-family:'Hind Siliguri', sans-serif;
+  font-size:2em;
+  color:#242424;
+}
+
 .sub_title{
   padding:10px 0;
   font-size:1em;
   font-style:italic;
 
+}
+
+.sub_title h2{
+  font-size:1em;
 }
 
 .tiny_title{
@@ -383,12 +393,12 @@ h6 {
   display:block;
 }
 
-h1{
-  font-size:3em;
+/* h1{
+  font-size:2em;
   font-weight:bold;
   letter-spacing: 10px;
 
-}
+} */
 
 .video{
   display:block;
@@ -629,7 +639,7 @@ h1{
     /* margin-left:60px; */
     padding-top:0px;
   }
-  .title_home a{
+.title_home a{
     font-size:2em;
     letter-spacing:16px;
   }
@@ -795,8 +805,12 @@ h6 {
   Margin:30% 5% 10% 5%;
 }
 
-h1{
+.main_title h2{
   font-size:5em;
+}
+
+.sub_title h2{
+  font-size:2em;
 }
 
 
