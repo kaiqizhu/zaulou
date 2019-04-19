@@ -331,7 +331,7 @@ footer {
     display:block;
 }
 
-h5 {
+.description p {
     font-weight:lighter;
     font-size:10px;
     color:#4d4d4d;
@@ -341,7 +341,7 @@ h5 {
     line-height:14px;
 }
 
-h6 {
+.copyright p {
     font-weight:lighter;
     font-size:8px;
     color:#4d4d4d;
@@ -784,7 +784,7 @@ footer {
 
 }
 
-h5 {
+.description p {
     font-size:1em;
     letter-spacing: 2px;
     padding-top:6vh;
@@ -792,7 +792,7 @@ h5 {
     line-height:25px;
 }
 
-h6 {
+.copyright p {
     font-size:0.85em;
     letter-spacing: 2px;
     padding-top:40px;
@@ -905,7 +905,7 @@ h4 {
 /* footer item */
 
 
-h5{
+.description{
 
   padding-top:100px;
 
