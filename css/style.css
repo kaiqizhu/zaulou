@@ -6,6 +6,7 @@ body{
   background:#f4f4f4;
 }
 
+
 h1,h3,h6,a{
   font-family: 'Hind Siliguri', sans-serif;
 }
@@ -114,7 +115,7 @@ ul{
 .topnavbar a {
     float: none;
     width: 100%;
-    color: #707070;
+    color: #242424;
     padding-left:5px;
     padding-right:5px;
     text-decoration: none;
@@ -123,7 +124,7 @@ ul{
 }
 
 .topnavbar a.current{
-    color:#242424;
+    color:#707070;
     text-decoration:line-through;
 }
 
@@ -222,7 +223,7 @@ h2 {
 
 h3 {
     font-size: 0.3em;
-    color:#aaaaaa;
+    color:#6e6e6e;
     margin-top:10px;
     letter-spacing: 2px;
 
@@ -295,7 +296,7 @@ h4 {
       font-weight: 700;
       font-size: 5em;
       line-height: 1;
-      color: #aaaaaa;
+      color: #6e6e6e;
       display: inline-block;
       position: relative;
       opacity:0.3;
@@ -326,14 +327,14 @@ footer {
     margin-top:10vh;
     padding:0px;
     background-color: #d4d4d4;
-    height:30vh;
+    height:50vh;
     display:block;
 }
 
 h5 {
     font-weight:lighter;
     font-size:10px;
-    color:#707070;
+    color:#4d4d4d;
     letter-spacing: 1px;
     padding-top:60px;
     padding-left:20px;
@@ -343,7 +344,7 @@ h5 {
 h6 {
     font-weight:lighter;
     font-size:8px;
-    color:#707070;
+    color:#4d4d4d;
     letter-spacing: 1px;
     padding-top:20px;
     padding-left:20px;
@@ -378,7 +379,7 @@ h6 {
 .bar4{
   width:100px;
   height:2px;
-  background:#aaaaaa;
+  background:#6e6e6e;
   display:block;
 }
 
@@ -770,7 +771,7 @@ h1{
 /* footer item */
 footer {
     margin-top:20vh;
-    height:30vh;
+
 }
 
 h5 {
@@ -844,7 +845,7 @@ h1{
 
 
   .topnavbar a:hover{
-    color: #AAAAAA;
+    color: #6e6e6e;
   }
 
 
@@ -888,11 +889,7 @@ h4 {
 
 
 /* footer item */
-footer {
 
-    height:50vh;
-
-}
 
 h5{
 
